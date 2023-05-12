@@ -9,5 +9,5 @@ This is project using React, Node.js, Express & MongoDB you'll learn how to buil
 ## Setup && Run
 
 ```bash
-    npm i --legacy-per-deps && npm run dev
+    npm i --legacy-peer-deps && npm run dev
 ```

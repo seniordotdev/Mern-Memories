@@ -1,6 +1,6 @@
 import axios from "axios";
 const API = axios.create({
-	baseURL: "https://mern-memories-api-part1.onrender.com",
+	baseURL: "https://mern-memories-api-part3.onrender.com",
 });
 API.interceptors.request.use((req) => {
 	if (localStorage.getItem("profile")) {
